@@ -1,0 +1,27 @@
+ucurum cifti (A aktif, B inaktif, tek donusum): 377; benzersiz aktif A: 336; B ornekte: 108
+ornek disi B: 262 -> ozellik hesaplaniyor
+  kat 1/5
+  kat 2/5
+  kat 3/5
+  kat 4/5
+  kat 5/5
+
+[yon dogrulugu: p(aktif A) > p(inaktif B); %50 = bilgi yok; %95 GA aktif-A kumelerinde bootstrap]
+  model: 62.3%  (GA 56.8-67.6), n=377
+  taban: yuksek logP kazanir: 59.9%  (GA 54.6-65.0), n=377
+  taban: yuksek CAD kazanir: 54.5%  (GA 52.0-57.0), n=377
+  model, |dp|>=0.1 (gurultu ustu): 71.8% (n=39)
+  model, |dp|>=0.2 (gurultu ustu): 60.0% (n=10)
+
+[kural bazinda model dogrulugu, n>=15]
+                       n  model  logp  ort_dp
+rule                                         
+aromatik halojen sil  83  0.711   1.0   0.020
+CH3 sil               78  0.821   1.0   0.031
+aromatik H -> OCH3    46  0.391   0.0   0.001
+aromatik H -> CH3     45  0.289   0.0  -0.019
+aromatik H -> Cl      22  0.591   0.0   0.019
+Cl -> CH3             17  0.647   1.0   0.016
+aromatik H -> F       17  0.588   0.0   0.014
+bitti
+cikis kodu: 0

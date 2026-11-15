@@ -1,0 +1,34 @@
+# ham veri ve türetilmiş büyük veri (yeniden üretilir / ayrı yayımlanır)
+data/
+tox21/tox21.csv
+tox21/models/
+tox21/*.npz
+results/*.joblib
+results/*.npz
+results/marburg_clean.csv
+results/marburg_model_on_*.csv
+results/ncgc_*classification.csv
+results/ncgc_model_on_chembl.csv
+results/ebola_tox21_predictions.csv
+results/*_tahmin.csv
+results/analog_oneriler.csv
+results/mmp_validation_pairs.csv
+
+# yayın paketleri (Release/Zenodo'ya yüklenir, depoya değil)
+dist/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# işletim sistemi / editör
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ChEMBL türevi küratörlü veri (CC BY-SA; yeniden üretilir)
+results/ebola_classification.csv
+results/ebola_regression*.csv

@@ -1,0 +1,17 @@
+ornek: 64471 bilesik, aktif 4471 (%6.9); gercek prevalans %2.2
+ozellikler hazir; iskelet grubu 34534
+{'features': 'desc+maccs', 'model': 'RF', 'auc': 0.847, 'prauc': 0.387, 'ef1': 10.843, 'ef5': 6.512}
+{'features': 'desc+maccs', 'model': 'HGB', 'auc': 0.836, 'prauc': 0.357, 'ef1': 9.904, 'ef5': 6.199}
+{'features': 'morgan2', 'model': 'RF', 'auc': 0.843, 'prauc': 0.388, 'ef1': 10.82, 'ef5': 6.62}
+(taban: PR-AUC = ornek prevalansi 0.069; EF taban 1.0, azami EF1% = 14.4)
+en iyi: desc+maccs RF 0.847
+
+NCGC Ebola 2524 bilesik; Marburg ile ortak 641 (cikarildi)
+  NCGC->Marburg-ornek en yakin komsu Tanimoto medyan 0.47; >=0.5 olan %44
+  [aktarim] NCGC Ebola: AUC 0.812, PR-AUC 0.609 (prevalans 0.249), EF1% 2.96, EF5% 3.46
+
+ChEMBL 513 bilesik (Marburg ortak cikarildi); en yakin komsu Tanimoto medyan 0.42; >=0.5 olan %30
+  [aktarim] ChEMBL 1uM sinif (n=510): AUC 0.566, PR-AUC 0.397 (prevalans 0.365)
+  [aktarim] ChEMBL pseudovirus pX (n=274): Spearman rho 0.002
+  [aktarim] dokuman-ici AUC ortalama 0.651 (10 dokuman)
+cikis kodu: 0

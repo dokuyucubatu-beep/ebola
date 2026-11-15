@@ -1,0 +1,10 @@
+name,smiles
+chloroquine,CCN(CC)CCCC(C)Nc1ccnc2cc(Cl)ccc12
+amodiaquine,CCN(CC)Cc1cc(Nc2ccnc3cc(Cl)ccc23)ccc1O
+toremifene,CC(=Cc1ccccc1)C(=C(CCCl)c1ccccc1)c1ccc(OCCN(C)C)cc1
+aspirin,CC(=O)Oc1ccccc1C(=O)O
+caffeine,Cn1cnc2c1c(=O)n(C)c(=O)n2C
+ibuprofen,CC(C)Cc1ccc(C(C)C(=O)O)cc1
+imatinib,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1
+remdesivir,CCC(CC)COC(=O)C(C)NP(=O)(OCC1C(C(C(O1)(C#N)c1ccc2n1ncnc2N)O)O)Oc1ccccc1
+bad,not_a_smiles

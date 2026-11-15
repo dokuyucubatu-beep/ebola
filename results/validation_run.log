@@ -1,0 +1,26 @@
+basit ozellikler hazir
+[Marburg orn.] CAD kurali AUC 0.593; bazik amin orani %13; aktiflik bazikte %14.7 vs digerinde %5.7
+  kat 1/5
+  kat 2/5
+  kat 3/5
+  kat 4/5
+  kat 5/5
+[Marburg CV] kucuk LogReg (bazik, logP, MW, TPSA, bazik*logP) AUC 0.741; RF desc+maccs AUC 0.847
+[Marburg CV] test->egitim en yakin komsu Tanimoto: medyan 0.57; >=0.5 %76; >=0.7 %11
+    bin     n  aktif  auc_rf  auc_cad  auc_lr
+  0-0.3   357     75   0.852    0.573   0.743
+0.3-0.4  3376    391   0.800    0.638   0.741
+0.4-0.5 11791   1039   0.815    0.591   0.730
+0.5-0.7 41762   2580   0.850    0.581   0.739
+  0.7-1  7185    386   0.892    0.639   0.781
+[Marburg CV | bazik amin var, n=8703] RF AUC 0.879; CAD 0.807
+[Marburg CV | bazik amin yok, n=55768] RF AUC 0.827; CAD 0.500
+
+[NCGC Ebola aktarim n=1883] model AUC 0.812; CAD 0.725; CAD'e kati: bazik var n=634 model 0.839 / CAD 0.806; bazik yok n=1249 model 0.747 / CAD 0.500
+[ChEMBL aktarim 1uM n=510] model AUC 0.566; CAD 0.548; bazik amin orani %86
+  y-rastgele 1/3: AUC 0.499
+  y-rastgele 2/3: AUC 0.495
+  y-rastgele 3/3: AUC 0.502
+[y-randomizasyon] gercek AUC 0.847; karistirilmis ort 0.498 sd 0.0034 (n=3); Z = 104  (permutasyon sayisi az: Z kaba; alt sinir icin ortalama ~0.5 olmasi esas)
+bitti
+cikis kodu: 0

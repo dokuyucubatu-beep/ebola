@@ -1,0 +1,15 @@
+ham kayit: 1037
+IC50/EC50 nM, standardize edilebilen: 757 olcum, 534 bilesik
+iliski dagilimi: {'=': 680, '>': 70, '<': 7}
+
+(a) pseudovirus '=': 315 olcum, 281 bilesik, 16 dokuman
+  pX araligi disi atilan: 6
+  tekrarli bilesik: 21; medyan yayilim 0.55 log; >1 log olan: 3
+  nihai: 275 bilesik; pX ort 5.78, sd 0.92, min 3.21, max 9.44
+  dokuman basina bilesik (ilk 8): {'CHEMBL4190400': 69, 'CHEMBL5576160': 49, 'CHEMBL6087437': 39, 'CHEMBL5579834': 34, 'CHEMBL4196047': 25, 'CHEMBL5608238': 22, 'CHEMBL5380852': 13, 'CHEMBL6182911': 6}
+
+(b) etiketlenebilen olcum: 756 / 757; bilesik 534
+  bilesik: 534; olcumleri celisen: 21; esit oy nedeniyle atilan: 12
+  nihai: 522 bilesik; aktif 186 (36%), inaktif 336
+  esik duyarliligi (bilesik medyan pX): >=6 aktif sayisi 186, >=5 419, >=4 519
+  dokuman basina bilesik (ilk 8): {'CHEMBL2321771': 70, 'CHEMBL4190400': 70, 'CHEMBL5576160': 50, 'CHEMBL6087437': 41, 'CHEMBL5584240': 35, 'CHEMBL5579834': 34, 'CHEMBL4196047': 25, 'CHEMBL5608238': 24}

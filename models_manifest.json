@@ -1,0 +1,43 @@
+{
+  "surum": "v1",
+  "ortam": {
+    "python": "3.11.15",
+    "scikit-learn": "1.9.0",
+    "rdkit": "2026.03.4",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "joblib": "1.5.3"
+  },
+  "uyari": "joblib/pickle dosyalari kod calistirabilir; yalnizca bu manifestteki SHA256 ile eslesen paketleri yukleyin.",
+  "paketler": {
+    "marburg_model_v1.zip": {
+      "url": "",
+      "sha256": "c4aef8c9a6e3a5451fb600d20e1d40dce3dbd857f897e392bdc5ecf507f57b44",
+      "bayt": 108722018,
+      "icerik": [
+        "results/marburg_model.joblib",
+        "results/marburg_sample_features.npz"
+      ]
+    },
+    "tox21_models_v1.zip": {
+      "url": "",
+      "sha256": "b2ba14bf26f12a694365d2b5e66a955884be6358f3ec80158e7c5a6ee516e28a",
+      "bayt": 156585422,
+      "icerik": [
+        "tox21/tox21_train_fp.npz",
+        "tox21/models/rf_NR-AR.joblib",
+        "tox21/models/rf_NR-AR-LBD.joblib",
+        "tox21/models/rf_NR-AhR.joblib",
+        "tox21/models/rf_NR-Aromatase.joblib",
+        "tox21/models/rf_NR-ER.joblib",
+        "tox21/models/rf_NR-ER-LBD.joblib",
+        "tox21/models/rf_NR-PPAR-gamma.joblib",
+        "tox21/models/rf_SR-ARE.joblib",
+        "tox21/models/rf_SR-ATAD5.joblib",
+        "tox21/models/rf_SR-HSE.joblib",
+        "tox21/models/rf_SR-MMP.joblib",
+        "tox21/models/rf_SR-p53.joblib"
+      ]
+    }
+  }
+}
