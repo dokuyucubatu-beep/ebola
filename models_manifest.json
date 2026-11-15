@@ -11,7 +11,7 @@
   "uyari": "joblib/pickle dosyalari kod calistirabilir; yalnizca bu manifestteki SHA256 ile eslesen paketleri yukleyin.",
   "paketler": {
     "marburg_model_v1.zip": {
-      "url": "",
+      "url": "https://github.com/dokuyucubatu-beep/ebola/releases/download/v1/marburg_model_v1.zip",
       "sha256": "c4aef8c9a6e3a5451fb600d20e1d40dce3dbd857f897e392bdc5ecf507f57b44",
       "bayt": 108722018,
       "icerik": [
@@ -20,7 +20,7 @@
       ]
     },
     "tox21_models_v1.zip": {
-      "url": "",
+      "url": "https://github.com/dokuyucubatu-beep/ebola/releases/download/v1/tox21_models_v1.zip",
       "sha256": "b2ba14bf26f12a694365d2b5e66a955884be6358f3ec80158e7c5a6ee516e28a",
       "bayt": 156585422,
       "icerik": [
